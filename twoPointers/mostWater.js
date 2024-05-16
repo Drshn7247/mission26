@@ -11,9 +11,9 @@ function mostWater(walls){
         maxArea=Math.max(area,maxArea);
 
         if(walls[left]<walls[right]){
-            left++
+            left++;
         }else{
-            right--
+            right--;
         }
     }
     return maxArea;
